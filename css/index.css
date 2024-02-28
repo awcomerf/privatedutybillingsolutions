@@ -539,4 +539,29 @@ p, span, a, button {
         .banner-text {
             display: none;
         }
+        .form-container h2 {
+            
+            
+            font-size: 35px;
+            color: white; /* Adjusted title color */
+            font-stretch:semi-expanded;
+        }
+        .form-container input {
+            width: calc(100% - 20px);
+            padding: 5px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            font-weight: bold;
+        }
+        .form-container button {
+            width: 70%;
+             /* Increased padding */
+            background-color: #455d7a; /* Green background color */
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px; /* Adjust font size */
+            margin-top: 2vh;
+        }
     }
