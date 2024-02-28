@@ -545,7 +545,7 @@ p, span, a, button {
             display: none;
         }
         .form-container h2 {
-            padding-top: 8vh;
+            padding-top: 6vh;
             
             font-size: 45px;
             color: white; /* Adjusted title color */
