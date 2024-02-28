@@ -549,7 +549,7 @@ p, span, a, button {
         .form-container input {
             width: calc(100% - 20px);
             padding: 5px;
-            margin: 10px 0;
+            margin: 5px 0;
             box-sizing: border-box;
             font-weight: bold;
         }
@@ -562,6 +562,6 @@ p, span, a, button {
             border-radius: 3px;
             cursor: pointer;
             font-size: 16px; /* Adjust font size */
-            margin-top: 2vh;
+            margin-top: 1vh;
         }
     }
