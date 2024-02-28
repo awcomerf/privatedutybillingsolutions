@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    font-family: "Roboto", "Montserrat", sans-serif;
+    position: relative; /* Make body a positioning context */
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #455d7a; /* Slightly lighter green */
+    align-items: center;
+}
+body {
+    font-weight: 300; /* Adjust font weight to make it thinner */
+}
+
+/* Apply to specific elements if needed */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: #233142; /* Adjust font weight for headings */
+}
+
+p, span, a, button {
+    font-weight: 300; /* Adjust font weight for paragraphs, spans, links, and buttons */
+}
+.logo {
+    float: left;
+    text-align: left;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.nav {
+    display: inline-block;
+}
+.nav button {
+    background-color: #455d7a; /* Slightly lighter green */
+    border: none;
+    color: white;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; /* Larger font size */
+    font-weight: bold; /* Bolder font weight */
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+.nav button:hover {
+    font-size: 22px; /* Larger font size on hover */
+}
+.footer {
+    position:static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #455d7a; /* Your footer background color */
+    color: white; /* Text color */
+    padding: 10px 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.left-content,
+.right-content {
+    flex: 1;
+
+}
+.right-content {
+    text-align: right;
+    margin-right: 15px;
+}
+.left-content {
+    text-align: left;
+    margin-left: 15px;
+}
+.center-content {
+    flex: 2;
+    text-align: center;
+    padding-left: 60px;
+}
+.right-content {
+    top: 0;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold; /* Bolder font weight */
+    
+}
+.header1 {
+    background-color: white;
+    color: #455d7a;
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 20px;
+    margin-bottom: -20px;
+    font-size: 25px;
+}
+
+.header1 h1 {
+    margin: 0;
+}
+.header1 p {
+    font-size: 20px;
+}
+.contact-number {
+    position: absolute;
+    padding-top: 10px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold; /* Bolder font weight */
+    align-items: center;            
+    
+}
+.banner {
+    background-color: whitesmoke; /* Grey color */
+    padding: 20px 0;
+    text-align: center;
+    
+}
+.banner h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #233142;
+}
+.banner p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: grey;
+}
+.banner .underline {
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+.story-header {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.story-header h2 {
+    color: #233142;
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.banner-heading {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-weight: bold ;
+}
+
+.banner-heading::after {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Adjust this value to control the distance of the underline from text */
+    left: 50%; /* Position the underline at the center of the text */
+    width: 50%; /* Set the width of the underline to half the width of the text */
+    height: 3px;
+    background-color: black; /* Adjust the color of the underline */
+    transform: translateX(-50%); /* Center the underline */
+}
+.story-heading {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.story-heading::after {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Adjust this value to control the distance of the underline from text */
+    left: 5%;
+    width: 50%; /* Set the width of the underline to cover the width of the heading */
+    height: 3px; /* Set the height of the underline */
+    background-color: black; /* Adjust the color of the underline */
+}
+.story-header p {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: rgb(81, 81, 81);
+}
+.about-image {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    float: right;
+    width: 30%;
+    margin: 15px;
+    margin-top: 25px;
+}
+.story-heading2 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.story-heading2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Adjust this value to control the distance of the underline from text */
+    left: 1%;
+    width: 30%; /* Set the width of the underline to cover the width of the heading */
+    height: 3px; /* Set the height of the underline */
+    background-color: black; /* Adjust the color of the underline */
+}
+
+.ryan-image {
+    float: left;
+    
+    margin-right: 35px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.ryan-text {
+    margin-top: 35px;
+    font-size: 20px;
+    
+}
+.alex-image {
+    float: left;
+    
+    margin-right: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.spanimg {
+    width: 101.35%;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    
+}
+.foundingmembers {
+    display: block;
+    padding-bottom: 10vh;
+}
+.ryan-text h2 {
+    padding-top: 2vh;
+    color: #233142;
+}
+.div1 {
+    padding-bottom: 3vh;
+}
+.contact-info {
+        position: absolute;
+        top: -25%; /* Adjust as needed to position the popup directly over the contact number */
+        left: 90%;
+        transform: translateX(-90%);
+        background-color: #233142;
+        padding: 10px;
+        color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        display: none;
+        z-index: 2; /* Ensure contact info appears above other content */
+        }
+
+.contact-number:hover  .contact-info {
+        display: block;
+    }
+@media screen and (max-width: 768px) {
+        .logo {
+            float: none;
+            text-align: center;
+            margin-left: 0;
+            margin-top: 0;
+        }
+        .nav {
+            display: block;
+            text-align: center;
+        }
+        .nav button {
+            background-color: #455d7a; /* Slightly lighter green */
+            border: none;
+            color: white;
+            padding: 5px 35px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px; /* Larger font size */
+            font-weight: bold; /* Bolder font weight */
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: font-size 0.3s ease;
+        }
+        .nav a {
+            color: #455d7a;
+        }
+        .nav button {
+            display: block;
+            margin: 0 auto;
+        }
+        .footer {
+            display: block;
+            text-align: center;
+        }
+        .right-content,
+        .left-content,
+        .center-content {
+            text-align: center;
+        }
+        .right-content {
+            margin-right: 0;
+        }
+        .left-content {
+            margin-left: 0;
+        }
+        .contact-number {
+            position: static;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .contact-info {
+            position: static;
+            display: none;
+        }
+        .contact-number:hover  .contact-info {
+            display: inline;
+            float: none;
+            text-align: center;
+            margin-left: 0;
+            margin-top: 0;
+            background-color: #455d7a;
+            box-shadow: none;
+        }
+    }
