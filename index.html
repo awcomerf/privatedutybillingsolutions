@@ -16,8 +16,33 @@
             }
             document.getElementById(tabName).style.display = "block";
         }
-        var slideIndex = 0;
-      
+        document.addEventListener('DOMContentLoaded', function() {
+        var slides = document.querySelectorAll('.slide');
+        var currentIndex = 0;
+
+        function showSlide(index) {
+            slides.forEach(function(slide) {
+            slide.style.display = 'none';
+            });
+            slides[index].style.display = 'block';
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        showSlide(currentIndex);
+
+        document.querySelector('.next').addEventListener('click', nextSlide);
+        document.querySelector('.prev').addEventListener('click', prevSlide);
+        });
+            
     </script>
 </head>
 <body>
@@ -46,17 +71,23 @@
         <img src="images/Test.png" alt="Logo" width="400" height="400">
     </div>
     <div class="form-container">
-        <h2>Services Inquiry</h2>
-        <p>Fill out the Information below to get into contact with us for more Information about PDBS.</p>
-        <form action="https://formcarry.com/s/q4dRVltjmgk" method="POST" enctype="multipart/form-data">
-            <input type="text" name="Company Name" placeholder="Company Name">
-            <input type="text" name="First Name" placeholder="First Name">
-            <input type="text" name="Last Name" placeholder="Last Name">
-            <input type="email" name="Email" placeholder="Email">
-            <input type="tel" name="Phone Number" placeholder="Phone Number">
-            <input type="text" name="Hours Billed Weekly" placeholder="Hours Billed Weekly">
-            <button type="submit">Submit for More Information</button>
-        </form>
+        
+        <div class="slideshow">
+            <div class="slide">
+                <h2>Billing Starting at 2.5% of Monthly Collections</h2>
+                <p>Private Duty Billing Solutions offers billing solutions for home care agencies. Fill out your agencies information to recieve a more in depth review of what our capabilities are to grow you business.</p>
+            </div>
+            <div class="slide">
+                <h2>Get Paid Faster with Instant Pay Billing</h2>
+                <p>With billing services, there are options available to cut banking transfer fees. Be able to get paid days in advance up to a certain percentage of your monthly recievables. This will come at a percentage in addition to a billing package that we are able to offer.</p>
+            </div>
+            
+        </div>
+        <div class="navigation">
+          <button class="prev">&lt;</button>
+          <button class="next">&gt;</button>
+        </div>
+        
     </div>
     
 </div>
@@ -138,6 +169,11 @@
     </div>
     
 </div>
+<div class="banner-button">
+        <h2>Services Inquiry</h2>
+        <p>Click here to fill out a survey link to give us more Information so that we can help you with all the ways we can assisst your business.</p>
+        <button class="button"><a href="form.html">Click for Client Survey </a></button>
+</div>
 <h1 class="headerbox">Explore Billing Options</h1> <!-- Added title in gray -->
 
 <div class="box-container">
@@ -165,7 +201,7 @@
 <!-- Calendly badge widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/alex-comerford17', text: 'Schedule time with me', color: '#455d7a', textColor: '#ffffff', branding: true }); }</script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/alex-comerford17', text: 'Schedule time with us', color: '#455d7a', textColor: '#ffffff', branding: true }); }</script>
 <!-- Calendly badge widget end -->
 <div class="slideshow-container">
     <div class="mySlides fade">

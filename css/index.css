@@ -67,14 +67,56 @@ p, span, a, button {
     height: 100%;
     background-color: rgba(128, 128, 128, 0.4); /* Green tint */
 }
+.slide h2 {
+    font-weight: bold;
+    font-weight: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slide p {
+    font-size: 25px;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .form-container {
     width: 50%;
-    padding: 20px; /* Adjusted padding */
+    
     box-sizing: border-box;
     text-align: center;
     position: relative;
     z-index: 1;
-}
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; 
+    
+    position: relative; /* Add this */
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    margin-right: 4vh;
+  }
+  
+  .navigation button {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.4); /* Set background color */
+    border: none;
+    font-size: 24px;
+    position: absolute; /* Add this */
+  }
+  
+  .prev {
+    left: 0; /* Position left arrow at left edge */
+  }
+  
+  .next {
+    right: 0; /* Position right arrow at right edge */
+  }
+  
 .banner-text {
     width: 50%;
     padding: 20px; /* Adjusted padding */
@@ -107,27 +149,9 @@ p, span, a, button {
     color: white; /* Adjusted title color */
     font-stretch:semi-expanded;
 }
-.form-container input {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
-    font-weight: bold;
-}
-.form-container button {
-    width: 70%;
-    padding: 10px; /* Increased padding */
-    background-color: #455d7a; /* Green background color */
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 16px; /* Adjust font size */
-    margin-top: 2vh;
-}
-.form-container button:hover {
-    background-color: #233142; /* Darker green on hover */
-}
+
+
+
 
 .bottom-banner {
     background-color: rgba(128, 128, 128, 0.6); /* Gray color */
@@ -440,6 +464,44 @@ p, span, a, button {
     .contact-number:hover  .contact-info {
         display: block;
     }
+    .banner-button {
+        background-color: #455d7a; /* Blue background color */
+        color: white; /* White text color */
+        text-align: center; /* Center align text */
+        
+    }
+    .banner-button h2 {
+        font-size: 45px;
+        color: whitesmoke;
+        font-weight: bold;
+        padding-top: 20px;
+        margin-bottom: -10px;
+        margin-top: 0px;
+        }
+    .banner-button p {
+        font-size: 18px;
+    }
+    .banner-button a {
+        color: #233142;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .banner-button .button {
+        background-color: whitesmoke; /* White button background color */
+        color: #233142; /* Blue button text color */
+        padding: 10px 20px; /* Add padding to the button */
+        border: none; /* Remove button border */
+        cursor: pointer; /* Change cursor to pointer on hover */
+        font-size: 16px; /* Set button font size */
+        border-radius: 3px; /* Add some border radius */
+        font-weight: bold;
+        width: 30%;
+        margin-bottom: 20px;
+      }
+
+    .banner-button .button:hover {
+        background-color: lightgray;
+      }
     @media screen and (max-width: 900px) {
         .logo {
             float: none;
@@ -447,6 +509,14 @@ p, span, a, button {
             margin-left: 0;
             margin-top: 0;
         }
+        .navigation button {
+            cursor: pointer;
+            background-color: rgba(128, 128, 128, 0.4); /* Set background color */
+            border: none;
+            font-size: 24px;
+            position: absolute; /* Add this */
+          }
+          
         .nav {
             display: block;
             text-align: center;
@@ -541,12 +611,12 @@ p, span, a, button {
             
             z-index: 1;
         }
+        
         .banner-text {
             display: none;
         }
         .form-container h2 {
             padding-top: 6vh;
-            
             font-size: 45px;
             color: white; /* Adjusted title color */
             font-stretch:semi-expanded;
@@ -558,15 +628,5 @@ p, span, a, button {
             box-sizing: border-box;
             font-weight: bold;
         }
-        .form-container button {
-            width: 70%;
-             /* Increased padding */
-            background-color: #455d7a; /* Green background color */
-            color: white;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-            font-size: 16px; /* Adjust font size */
-            margin-top: 3vh;
-        }
+        
     }
