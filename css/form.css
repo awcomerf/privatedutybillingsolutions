@@ -24,9 +24,16 @@ p, span, a, button {
 .logo {
     
     text-align: center;
+    padding-left: 20px;
    
 }
-
+.header .home {
+    float: right;
+    
+    align-items: center;
+    padding-top: 3vh;
+    
+}
   
   .container {
     background-color: #fff;
