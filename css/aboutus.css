@@ -344,4 +344,11 @@ p, span, a, button {
             background-color: #455d7a;
             box-shadow: none;
         }
+        .about-image {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+            float: right;
+            width: 50%;
+            margin: 15px;
+            margin-top: 25px;
+        }
     }
