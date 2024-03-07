@@ -31,8 +31,14 @@ p, span, a, button {
     float: right;
     
     align-items: center;
-    padding-top: 3vh;
     
+    
+    
+}
+.home a p {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
 }
   
   .container {
@@ -60,7 +66,8 @@ p, span, a, button {
   
   input[type="text"],
   input[type="tel"],
-  input[type="email"] {
+  input[type="email"],
+  input[type="number"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -74,6 +81,13 @@ p, span, a, button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
   }
   
   button:hover {
@@ -163,7 +177,7 @@ p, span, a, button {
 .banner p {
     margin: 20px;
     font-size: 18px;
-    color: grey;
+    color: #233142;
 
 }
 .banner .underline {

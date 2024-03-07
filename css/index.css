@@ -49,7 +49,7 @@ p, span, a, button {
 }
 .banner {
     width: 100%;
-    height: 650px;
+    height: 690px;
     padding: 0;
     position: relative;
     display: flex;
@@ -76,8 +76,8 @@ p, span, a, button {
 .slide p {
     font-size: 25px;
     
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .form-container {
     width: 50%;
@@ -154,7 +154,7 @@ p, span, a, button {
 
 
 .bottom-banner {
-    background-color: rgba(128, 128, 128, 0.8); /* Gray color */
+    background-color: #455d7a; /* Gray color */
     color: white; /* Adjusted title color */
     text-align: center;
     padding: 20px;
@@ -172,9 +172,9 @@ p, span, a, button {
     margin: 10px;
 }
 .box {
-    width: 22%;
+    width: 25%;
     background-color: whitesmoke; /* Changed to white */
-    padding: 30px;
+    padding: 50px;
     text-align: center;
     border-radius: 0px;
     margin: 2vw;
@@ -293,7 +293,7 @@ p, span, a, button {
 }
 .header1 {
     background-color: white;
-    color: grey;
+    color: #233142;
     text-align: center;
     padding: 10px 0;
     padding-top: 10px;
@@ -374,7 +374,7 @@ p, span, a, button {
         font-size: 40px; 
     }
     .slideshow-container p {
-        color: grey;
+        color: #233142;
         padding-bottom: 15px;
         padding-right: 30px;
         padding-left: 30px;
@@ -474,12 +474,12 @@ p, span, a, button {
         font-size: 45px;
         color: whitesmoke;
         font-weight: bold;
-        padding-top: 20px;
+        padding-top: 30px;
         margin-bottom: -10px;
         margin-top: 0px;
         }
     .banner-button p {
-        font-size: 18px;
+        font-size: 20px;
     }
     .banner-button a {
         color: #233142;
@@ -492,11 +492,11 @@ p, span, a, button {
         padding: 10px 20px; /* Add padding to the button */
         border: none; /* Remove button border */
         cursor: pointer; /* Change cursor to pointer on hover */
-        font-size: 16px; /* Set button font size */
+        font-size: 18px; /* Set button font size */
         border-radius: 3px; /* Add some border radius */
         font-weight: bold;
         width: 30%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
       }
 
     .banner-button .button:hover {

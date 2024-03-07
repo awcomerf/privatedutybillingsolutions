@@ -132,7 +132,7 @@ p, span, a, button {
 .banner p {
     margin-top: 10px;
     font-size: 20px;
-    color: grey;
+    color: #233142;
 }
 .banner .underline {
     border-bottom: 2px solid black;
@@ -188,7 +188,7 @@ p, span, a, button {
     font-size: 20px;
     margin-left: 5px;
     margin-right: 20px;
-    color: rgb(81, 81, 81);
+    color: #233142;
 }
 .about-image {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);

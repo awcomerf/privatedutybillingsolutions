@@ -131,7 +131,7 @@ p, span, a, button {
 .banner p {
     margin: 20px;
     font-size: 18px;
-    color: grey;
+    color: #233142;
 }
 .banner .underline {
     border-bottom: 2px solid black;
@@ -185,7 +185,7 @@ p, span, a, button {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer; /* Added cursor pointer */
     font-size: 20px;
-    color: grey;
+    color: #233142;
     
 }
 

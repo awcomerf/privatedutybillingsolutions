@@ -130,7 +130,7 @@ p, span, a, button {
 .banner p {
     margin: 20px;
     font-size: 18px;
-    color: grey;
+    color: #233142;
 
 }
 .banner .underline {
@@ -183,6 +183,45 @@ th {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+.banner-button {
+    background-color: whitesmoke; /* Blue background color */
+    /* White text color */
+    text-align: center; /* Center align text */
+    
+}
+
+.banner-button p {
+    font-size: 20px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.banner-button a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+.banner-button .button {
+    background-color: #233142; /* White button background color */
+    color: whitesmoke; /* Blue button text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 18px; /* Set button font size */
+    border-radius: 3px; /* Add some border radius */
+    font-weight: bold;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+
+.banner-button .button:hover {
+    background-color: lightgray;
+    
+  }
+  .banner-button .button:hover a {
+    color: #233142;
+    
+  }
 .contact-info {
         position: absolute;
         top: -25%; /* Adjust as needed to position the popup directly over the contact number */
