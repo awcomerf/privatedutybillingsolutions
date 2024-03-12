@@ -622,7 +622,7 @@ p, span, a, button {
             font-stretch:semi-expanded;
         }
         .form-container p {
-            font-size: 15px;
+            font-size: 20px;
         }
         .form-container input {
             width: calc(100% - 20px);
