@@ -4,13 +4,24 @@ body {
     position: relative; /* Make body a positioning context */
 }
 .header {
-    padding: 20px;
     text-align: center;
     background-color: #455d7a; /* Slightly lighter green */
     align-items: center;
+    height: 10vh;
 }
+
 body {
     font-weight: 300; /* Adjust font weight to make it thinner */
+}
+.header img {
+    padding-top: 3vh;
+    padding-left: 1.5vw;
+}
+.header .nav {
+    padding-top: 2.5vh;
+}
+.header .contact-number {
+    padding-top: 3vh;
 }
 
 /* Apply to specific elements if needed */
@@ -49,7 +60,7 @@ p, span, a, button {
 }
 .banner {
     width: 100%;
-    height: 740px;
+    height: 90vh;
     padding: 0;
     position: relative;
     display: flex;
@@ -119,11 +130,14 @@ p, span, a, button {
   
 .banner-text {
     width: 50%;
-    padding: 20px; /* Adjusted padding */
+    
     box-sizing: border-box;
     text-align: center;
     position: relative;
     z-index: 1;
+}
+.banner-text img {
+    padding-top: 10vh;
 }
 .form-container {
     background-color: white;
@@ -602,6 +616,7 @@ p, span, a, button {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+            
         }
         .form-container {
             width: 80%;
