@@ -21,7 +21,7 @@ body {
     padding-top: 2.5vh;
 }
 .header .contact-number {
-    padding-top: 3vh;
+    padding-top: 3.5vh;
 }
 
 /* Apply to specific elements if needed */
@@ -80,9 +80,9 @@ p, span, a, button {
 }
 .slide h2 {
     font-weight: bold;
-    font-weight: 45px;
-    padding-left: 15px;
-    padding-right: 15px;
+    font-size: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .slide p {
     font-size: 25px;
