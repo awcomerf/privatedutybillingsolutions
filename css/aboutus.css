@@ -22,6 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 p, span, a, button {
     font-weight: 300; /* Adjust font weight for paragraphs, spans, links, and buttons */
 }
+hr {
+    background-color: #455d7a;
+    height: 10vh;
+    
+}
 .logo {
     float: left;
     text-align: left;
@@ -189,6 +194,10 @@ p, span, a, button {
     margin-left: 5px;
     margin-right: 20px;
     color: #233142;
+    
+}
+.space {
+    padding-top: 2vh;
 }
 .about-image {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
