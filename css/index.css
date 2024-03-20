@@ -91,7 +91,7 @@ p, span, a, button {
     padding-right: 80px;
 }
 .form-container {
-    width: 50%;
+    width: 45%;
     
     box-sizing: border-box;
     text-align: center;
@@ -129,7 +129,7 @@ p, span, a, button {
   }
   
 .banner-text {
-    width: 50%;
+    width: 55%;
     
     box-sizing: border-box;
     text-align: center;
@@ -137,7 +137,7 @@ p, span, a, button {
     z-index: 1;
 }
 .banner-text img {
-    padding-top: 10vh;
+    padding-top: 7.5vh;
 }
 .form-container {
     background-color: white;
